@@ -3,7 +3,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 TARGET = "192.168.1.10"
 START_PORT = 1
-END_PORT = 1024
+END_PORT = 65535
 TIMEOUT = 0.5
 
 open_ports = []
