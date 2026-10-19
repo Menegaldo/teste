@@ -1,11 +1,6 @@
 #!/usr/bin/env python3
 """Varredura TCP de um IP com identificacao de servicos por respostas reais.
 
-Exemplos:
-    python3 varredura.py 192.168.139.12 -p 51062
-    python3 varredura.py 192.168.139.12 -p 1-65535 -j 32
-    python3 varredura.py 127.0.0.1 -p 22,80,443,51062 --processos
-
 Usa apenas a biblioteca padrao. Nao consulta servicos externos.
 Banner e HTTP/TLS identificam alguns protocolos; ausencia de identificacao
 nao altera uma porta ja confirmada como aberta. Nomes pelo numero da porta
